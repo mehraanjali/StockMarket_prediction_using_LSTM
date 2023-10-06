@@ -1,14 +1,14 @@
 # Stock Market Price Prediction Using LSTM
 
-##Project Description:
+## Project Description:
 
 This project focuses on leveraging Long Short-Term Memory (LSTM) neural networks to predict stock market prices. LSTM is a type of recurrent neural network (RNN) known for its ability to model sequential data effectively, making it a popular choice for time series forecasting, such as stock price prediction.
 
-##Project Overview:
+## Project Overview:
 
 In this project, we build and train an LSTM-based neural network to predict the future closing prices of a specific stock (in this case, AAPL - Apple Inc.) based on historical stock price data. We'll also evaluate the model's performance using Root Mean Square Error (RMSE) as a performance metric.
 
-##Key Steps in the Project:
+## Key Steps in the Project:
 
     Data Collection:
         We fetch historical stock price data for AAPL from the Tiingo API using the pandas_datareader library.
@@ -41,7 +41,7 @@ In this project, we build and train an LSTM-based neural network to predict the 
         After training the model, we demonstrate how to use it to make future stock price predictions.
         We take a seed sequence of historical data and iteratively predict future prices for a specified number of days.
 
-##Project Outcomes:
+## Project Outcomes:
 
 This project serves as a practical example of applying deep learning techniques, specifically LSTM neural networks, for stock price prediction. By following this project, users can understand the following:
 
